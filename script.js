@@ -33,8 +33,10 @@ gamesAndVideosButton.addEventListener('mouseenter', () => {
     hoverSoundFunction();
 })
 
-
-function clickSoundPlay(){
+function changeWindow(settingWindow){
     let sound = document.getElementById('clickSound');
     sound.play();
+    if (settingWindow) {
+        window.location.href = settingWindow
+    }
 }
