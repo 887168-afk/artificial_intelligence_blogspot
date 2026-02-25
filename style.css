@@ -99,16 +99,15 @@ button {
     transform: translateX(50px);
 }
 
-.llmImage {
-    text-align: center;
-    transform: translateY(-300px);
-    background-size: cover;
+.whatsAI {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.aiExamples {
-    transform: translate(400px, -300px);
-}
-
-.ai1 {
-    text-align: center;
+.AIEXAMPLES {
+    text-align: justify;
+    width: 90px;
+    height: 10px;
+    transform: translateX(200px);
 }
