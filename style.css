@@ -111,3 +111,7 @@ button {
     height: 10px;
     transform: translateX(200px);
 }
+
+.aiExamples {
+    transform: translateY(-140px);
+}
