@@ -7,6 +7,11 @@ const gamesAndVideosButton = document.getElementById("Button6")
 const sourcesButton = document.getElementById("Button7")
 const hoverSound = document.getElementById("hoverSound")
 
+const bg = document.getElementById("background1")
+const notAIButton = document.getElementById("notAI")
+const isAIButton = document.getElementById("isAI")
+const applicantInformation = document.getElementById("applicantInformation")
+
 function hoverSoundFunction(){
     hoverSound.currentTime = 0;
     hoverSound.play();
@@ -39,4 +44,11 @@ function changeWindow(settingWindow){
     if (settingWindow) {
         window.location.href = settingWindow
     }
+
+}
+
+
+function newApplicantGame(){
+    let birthYear = randint(0, 100)
+    let strengths = randint(0, 100)
 }
