@@ -20,17 +20,13 @@
             </header>
             <div>
                 <h1 class="bold">Welcome!</h1>
-            <p>This amazing website will tell you all about AI, and how it affects our world today. Hopefully you enjoy this website and have fun!</p>
+            <p>This part of this website will tell you about how AI is replacing some jobs, and why people are afraid</p>
 
             </div>
             
             <div class="whatsAI">
                 <div>
-                    <p class="whatsAIParagraph">AI is a technology that allows computers to recreate human attributes like creativity, learning, problem solving, decision making, and more.
-                        It uses algorithms, loops, data, and patterns to recreate the human-like behavior and to perform tasks.
-                        Some of these tasks include generating things like images or code, analyzing images or text, having a conversation, and more.
-                        The usual AIs that you hear today like ChatGPT or Copilot are a special type of AI called large language models.
-                        These types of AIs work through learning large amounts of data that can help them easily perform tasks.</p>
+                    <p class="whatsAIParagraph"></p>
                 </div>
                 
                 <div class="aiExamples">
@@ -53,10 +49,10 @@
                 <audio id="hoverSound" src="audio/hoverSound.mp3" preload="auto"></audio>
                 <button id="Button1" class="Button1" onclick="changeWindow('home.html');">Introduction</button>
                 <button id="Button2" class="Button2" onclick="changeWindow('misuseandeffects.html');">Misuse and Effects</button>
-                <button id="Button3" class="Button3" onclick="changeWindow('index.html');">Job Replacement</button>
-                <button id="Button4" class="Button4" onclick="changeWindow('index.html');">AI and Climate</button>
-                <button id="Button5" class="Button5" onclick="changeWindow('index.html');">Misinformation and Fraud</button>
-                <button id="Button6" class="Button6" onclick="changeWindow('index.html');">Games and Videos</button>
+                <button id="Button3" class="Button3" onclick="changeWindow('home.html');">Job Replacement</button>
+                <button id="Button4" class="Button4" onclick="changeWindow('home.html');">AI and Climate</button>
+                <button id="Button5" class="Button5" onclick="changeWindow('home.html');">Misinformation and Fraud</button>
+                <button id="Button6" class="Button6" onclick="changeWindow('home.html');">Games and Videos</button>
                 <button id="Button7" class="Button7" onclick="changeWindow('sources.html');">Sources</button>
             </div>
 
@@ -65,4 +61,3 @@
     </head>
 
 </html>
-
