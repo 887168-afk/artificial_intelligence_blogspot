@@ -95,8 +95,19 @@ button {
 
 .whatsAIParagraph {
     text-align: justify;
-    width: 350px;
     transform: translateX(50px);
+}
+
+.paragrapWidth350 {
+     width: 350px;
+}
+
+.paragrapWidth500 {
+     width: 500px;
+}
+
+.paragrapWidth750 {
+     width: 750px;
 }
 
 .whatsAI {
