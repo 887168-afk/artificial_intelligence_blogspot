@@ -11,6 +11,7 @@ const bg = document.getElementById("background1")
 const notAIButton = document.getElementById("notAI")
 const isAIButton = document.getElementById("isAI")
 const applicantInformation = document.getElementById("applicantInformation")
+const aiStrengths = ["- Works fast and effcient", "- Makes zero mistakes", "- Very good at online tasks", "- Instantly answers questions"]
 
 function hoverSoundFunction(){
     hoverSound.currentTime = 0;
@@ -51,5 +52,16 @@ function changeWindow(settingWindow){
 function newApplicantGame(){
     let birthYear = randint(0, 100)
     let strengths = randint(0, 100)
-    
+    let age = randint(0, 100)
+
+    if (birthYear >= 60){
+        birthYear = randint(2020, 2026)
+    } else if (birthYear < 60) {
+        birthYear = randint(1999, 2005)
+        age = 2026 - birthYear
+    }
+
+    if (strengths <= 30) {
+        strengths = aiStrengths[randint(1, int(aiStrengths))]
+    }
 }
