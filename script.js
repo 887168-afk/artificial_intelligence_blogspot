@@ -51,4 +51,5 @@ function changeWindow(settingWindow){
 function newApplicantGame(){
     let birthYear = randint(0, 100)
     let strengths = randint(0, 100)
+    
 }
