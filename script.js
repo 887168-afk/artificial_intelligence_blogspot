@@ -11,7 +11,8 @@ const bg = document.getElementById("background1")
 const notAIButton = document.getElementById("notAI")
 const isAIButton = document.getElementById("isAI")
 const applicantInformation = document.getElementById("applicantInformation")
-const aiStrengths = ["- Works fast and effcient", "- Makes zero mistakes", "- Very good at online tasks", "- Instantly answers questions"]
+const strengthsList = ["- Works fast and effcient", "- Makes zero mistakes", "- Very good at online tasks", "- Instantly answers questions"]
+const weaknessesList = ["- Struggles working with others", "- Works slow and inefficient", "- Struggles with online tasks", "- Makes many mistakes"]
 
 function hoverSoundFunction(){
     hoverSound.currentTime = 0;
@@ -53,6 +54,9 @@ function newApplicantGame(){
     let birthYear = randint(0, 100)
     let strengths = randint(0, 100)
     let age = randint(0, 100)
+    let ability1= ""
+    let ability2= ""
+    let ability3= ""
 
     if (birthYear >= 60){
         birthYear = randint(2020, 2026)
@@ -62,6 +66,8 @@ function newApplicantGame(){
     }
 
     if (strengths <= 30) {
-        strengths = aiStrengths[randint(1, int(aiStrengths))]
+        ability1 = strengthsList[0]
+        ability2 = strengthsList[1]
+        ability3 = strengthsList[2]
     }
 }
